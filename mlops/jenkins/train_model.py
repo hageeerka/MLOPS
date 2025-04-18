@@ -11,7 +11,6 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import mlflow
 from mlflow.models import infer_signature
 import joblib
-%matplotlib inline
 
 
 def eval_metrics(actual, pred):
