@@ -1,0 +1,1 @@
+/var/lib/jenkins/workspace/download/mlops/jenkins/mlruns/979078634199917060/f139ed53925f4cb2b31535faf57528e5/artifacts/model
