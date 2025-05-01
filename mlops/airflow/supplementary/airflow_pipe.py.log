@@ -1,0 +1,172 @@
+[2025-05-01T17:48:55.957+0500] {processor.py:161} INFO - Started process (PID=156048) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:48:55.957+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:48:55.958+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:55.958+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:48:57.387+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:48:57.442+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:57.441+0500] {override.py:1769} INFO - Created Permission View: can delete on DAG:train_pipe
+[2025-05-01T17:48:57.447+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:57.447+0500] {override.py:1769} INFO - Created Permission View: can edit on DAG:train_pipe
+[2025-05-01T17:48:57.452+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:57.451+0500] {override.py:1769} INFO - Created Permission View: can read on DAG:train_pipe
+[2025-05-01T17:48:57.452+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:57.452+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:48:57.456+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:57.456+0500] {dag.py:3058} INFO - Creating ORM DAG for train_pipe
+[2025-05-01T17:48:57.461+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:48:57.461+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:40:00+00:00, run_after=2025-05-01 12:45:00+00:00
+[2025-05-01T17:48:57.470+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.514 seconds
+[2025-05-01T17:50:04.928+0500] {processor.py:161} INFO - Started process (PID=157014) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:50:04.933+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:50:04.934+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:50:04.934+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:50:06.364+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:50:06.371+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:50:06.371+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:50:06.380+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:50:06.380+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:45:00+00:00, run_after=2025-05-01 12:50:00+00:00
+[2025-05-01T17:50:06.390+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.464 seconds
+[2025-05-01T17:50:50.838+0500] {processor.py:161} INFO - Started process (PID=157602) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:50:50.838+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:50:50.839+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:50:50.839+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:50:52.281+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:50:52.287+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:50:52.287+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:50:52.297+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:50:52.296+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:50:52.306+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.470 seconds
+[2025-05-01T17:51:27.062+0500] {processor.py:161} INFO - Started process (PID=157971) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:51:27.068+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:51:27.069+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:51:27.068+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:51:28.511+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:51:28.517+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:51:28.517+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:51:28.527+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:51:28.527+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:51:28.537+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.477 seconds
+[2025-05-01T17:52:04.925+0500] {processor.py:161} INFO - Started process (PID=158402) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:52:04.931+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:52:04.932+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:52:04.931+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:52:06.385+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:52:06.392+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:52:06.391+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:52:06.401+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:52:06.401+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:52:06.411+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.488 seconds
+[2025-05-01T17:52:44.047+0500] {processor.py:161} INFO - Started process (PID=158782) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:52:44.052+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:52:44.053+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:52:44.053+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:52:45.424+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:52:45.430+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:52:45.430+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:52:45.440+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:52:45.440+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:52:45.450+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.405 seconds
+[2025-05-01T17:53:31.140+0500] {processor.py:161} INFO - Started process (PID=159283) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:53:31.146+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:53:31.146+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:53:31.146+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:53:32.502+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:53:32.513+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:53:32.513+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:53:32.522+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:53:32.522+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:53:32.533+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.395 seconds
+[2025-05-01T17:54:08.739+0500] {processor.py:161} INFO - Started process (PID=159636) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:54:08.745+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:54:08.746+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:54:08.745+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:54:10.152+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:54:10.163+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:54:10.163+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:54:10.173+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:54:10.173+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:54:10.183+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.446 seconds
+[2025-05-01T17:54:51.198+0500] {processor.py:161} INFO - Started process (PID=160085) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:54:51.204+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:54:51.205+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:54:51.204+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:54:52.559+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:54:52.565+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:54:52.565+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:54:52.574+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:54:52.574+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:50:00+00:00, run_after=2025-05-01 12:55:00+00:00
+[2025-05-01T17:54:52.584+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.388 seconds
+[2025-05-01T17:55:48.070+0500] {processor.py:161} INFO - Started process (PID=160790) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:55:48.075+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:55:48.076+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:55:48.076+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:55:49.420+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:55:49.427+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:55:49.426+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:55:49.436+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:55:49.436+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:55:49.445+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.378 seconds
+[2025-05-01T17:56:21.652+0500] {processor.py:161} INFO - Started process (PID=161121) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:56:21.658+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:56:21.658+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:56:21.658+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:56:23.012+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:56:23.018+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:56:23.018+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:56:23.027+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:56:23.027+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:56:23.037+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.387 seconds
+[2025-05-01T17:57:01.453+0500] {processor.py:161} INFO - Started process (PID=161506) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:57:01.454+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:57:01.455+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:57:01.454+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:57:02.830+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:57:02.836+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:57:02.835+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:57:02.846+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:57:02.845+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:57:02.857+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.405 seconds
+[2025-05-01T17:57:36.898+0500] {processor.py:161} INFO - Started process (PID=161998) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:57:36.903+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:57:36.904+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:57:36.904+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:57:38.255+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:57:38.261+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:57:38.260+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:57:38.269+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:57:38.269+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:57:38.279+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.383 seconds
+[2025-05-01T17:58:14.691+0500] {processor.py:161} INFO - Started process (PID=162406) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:58:14.692+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:58:14.692+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:58:14.692+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:58:16.017+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:58:16.023+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:58:16.023+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:58:16.032+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:58:16.031+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:58:16.041+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.352 seconds
+[2025-05-01T17:58:47.912+0500] {processor.py:161} INFO - Started process (PID=162775) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:58:47.918+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:58:47.918+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:58:47.918+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:58:49.273+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:58:49.279+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:58:49.279+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:58:49.289+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:58:49.289+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:58:49.298+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.388 seconds
+[2025-05-01T17:59:19.785+0500] {processor.py:161} INFO - Started process (PID=163165) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:59:19.790+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:59:19.791+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:59:19.791+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:59:21.256+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:59:21.263+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:59:21.262+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:59:21.273+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:59:21.272+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:59:21.283+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.501 seconds
+[2025-05-01T17:59:56.829+0500] {processor.py:161} INFO - Started process (PID=163501) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:59:56.835+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T17:59:56.836+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:59:56.836+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:59:58.361+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T17:59:58.368+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:59:58.368+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T17:59:58.379+0500] {logging_mixin.py:188} INFO - [2025-05-01T17:59:58.378+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 12:55:00+00:00, run_after=2025-05-01 13:00:00+00:00
+[2025-05-01T17:59:58.389+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.562 seconds
+[2025-05-01T18:00:53.752+0500] {processor.py:161} INFO - Started process (PID=164292) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:00:53.758+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:00:53.759+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:00:53.758+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:00:55.125+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:00:55.132+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:00:55.131+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:00:55.141+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:00:55.141+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:00:55.154+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.404 seconds
+[2025-05-01T18:01:28.165+0500] {processor.py:161} INFO - Started process (PID=164649) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:01:28.171+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:01:28.172+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:01:28.171+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:01:29.622+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:01:29.628+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:01:29.628+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:01:29.638+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:01:29.637+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:01:29.647+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.484 seconds
+[2025-05-01T18:02:05.416+0500] {processor.py:161} INFO - Started process (PID=165034) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:02:05.421+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:02:05.422+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:02:05.422+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:02:06.811+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:02:06.817+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:02:06.817+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:02:06.826+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:02:06.826+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:02:06.837+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.423 seconds
+[2025-05-01T18:02:42.988+0500] {processor.py:161} INFO - Started process (PID=165482) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:02:42.989+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:02:42.989+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:02:42.989+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:02:44.352+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:02:44.363+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:02:44.363+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:02:44.373+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:02:44.373+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:02:44.383+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.397 seconds
+[2025-05-01T18:03:18.719+0500] {processor.py:161} INFO - Started process (PID=165808) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:03:18.724+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:03:18.725+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:03:18.725+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:03:20.094+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:03:20.105+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:03:20.105+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:03:20.115+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:03:20.114+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:03:20.124+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.408 seconds
+[2025-05-01T18:03:55.921+0500] {processor.py:161} INFO - Started process (PID=166220) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:03:55.924+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:03:55.924+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:03:55.924+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:03:57.294+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:03:57.300+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:03:57.299+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:03:57.310+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:03:57.310+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:03:57.454+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.535 seconds
+[2025-05-01T18:04:32.034+0500] {processor.py:161} INFO - Started process (PID=166655) to work on /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:04:32.035+0500] {processor.py:830} INFO - Processing file /home/test/airflow/dags/airflow_pipe.py for tasks to queue
+[2025-05-01T18:04:32.036+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:04:32.036+0500] {dagbag.py:538} INFO - Filling up the DagBag from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:04:33.400+0500] {processor.py:840} INFO - DAG(s) 'train_pipe' retrieved from /home/test/airflow/dags/airflow_pipe.py
+[2025-05-01T18:04:33.406+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:04:33.406+0500] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-01T18:04:33.416+0500] {logging_mixin.py:188} INFO - [2025-05-01T18:04:33.416+0500] {dag.py:3823} INFO - Setting next_dagrun for train_pipe to 2025-05-01 13:00:00+00:00, run_after=2025-05-01 13:05:00+00:00
+[2025-05-01T18:04:33.437+0500] {processor.py:183} INFO - Processing /home/test/airflow/dags/airflow_pipe.py took 1.404 seconds
