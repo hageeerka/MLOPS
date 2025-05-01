@@ -4,6 +4,7 @@ from airflow.operators.python import PythonOperator
 import requests
 from pathlib import Path
 import os
+from datetime import datetime
 from datetime import timedelta
 from train_model import train
 
@@ -16,7 +17,7 @@ def download_data():
 
 dag_salary = DAG(
     dag_id="train_pipe",
-    start_date=datetime(2025, 2, 0),
+    start_date=datetime(2025, 4, 1),
     concurrency=4,
     schedule_interval=timedelta(minutes=5),
 #    schedule="@hourly",
